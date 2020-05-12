@@ -1,22 +1,17 @@
-// import React, { useEffect, useState } from 'react';
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
-import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
-const element = <FontAwesomeIcon icon={faCoffee} />
-
-ReactDOM.render(element, document.body)
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div className="Home">
-      <h1>Home</h1>
-      <i className="fab fa-github"></i>
-      <i className="fab fa-linkedin"></i>
+    <div className="Home ml-5 mr-5">
+      <main>
+        <h5 className="ml-2">Hi, my name is</h5>
+        <h1>Dennis Chen.</h1>
+        <h3 className="mb-5">Full Stack Software Engineer</h3>
+        <Link to="/projects">
+          <button>Projects</button>
+        </Link>
+      </main>
     </div>
   );
 }
