@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/www.dennischen123.me/static/css/main.8aaa9f80.chunk.css",
-    "main.js": "/www.dennischen123.me/static/js/main.ff1fdd9f.chunk.js",
-    "main.js.map": "/www.dennischen123.me/static/js/main.ff1fdd9f.chunk.js.map",
-    "runtime-main.js": "/www.dennischen123.me/static/js/runtime-main.adbabeda.js",
-    "runtime-main.js.map": "/www.dennischen123.me/static/js/runtime-main.adbabeda.js.map",
-    "static/js/2.bee22cc7.chunk.js": "/www.dennischen123.me/static/js/2.bee22cc7.chunk.js",
-    "static/js/2.bee22cc7.chunk.js.map": "/www.dennischen123.me/static/js/2.bee22cc7.chunk.js.map",
-    "index.html": "/www.dennischen123.me/index.html",
-    "precache-manifest.fdfdb639789e2138c7f9b589ec9bb588.js": "/www.dennischen123.me/precache-manifest.fdfdb639789e2138c7f9b589ec9bb588.js",
-    "service-worker.js": "/www.dennischen123.me/service-worker.js",
-    "static/css/main.8aaa9f80.chunk.css.map": "/www.dennischen123.me/static/css/main.8aaa9f80.chunk.css.map",
-    "static/js/2.bee22cc7.chunk.js.LICENSE.txt": "/www.dennischen123.me/static/js/2.bee22cc7.chunk.js.LICENSE.txt"
+    "main.css": "/www.dennischen123.me/portfolio/static/css/main.8aaa9f80.chunk.css",
+    "main.js": "/www.dennischen123.me/portfolio/static/js/main.d48acdbc.chunk.js",
+    "main.js.map": "/www.dennischen123.me/portfolio/static/js/main.d48acdbc.chunk.js.map",
+    "runtime-main.js": "/www.dennischen123.me/portfolio/static/js/runtime-main.2f2262fd.js",
+    "runtime-main.js.map": "/www.dennischen123.me/portfolio/static/js/runtime-main.2f2262fd.js.map",
+    "static/js/2.bee22cc7.chunk.js": "/www.dennischen123.me/portfolio/static/js/2.bee22cc7.chunk.js",
+    "static/js/2.bee22cc7.chunk.js.map": "/www.dennischen123.me/portfolio/static/js/2.bee22cc7.chunk.js.map",
+    "index.html": "/www.dennischen123.me/portfolio/index.html",
+    "precache-manifest.ed70b85772d17a98c1cb535fc7cc7f18.js": "/www.dennischen123.me/portfolio/precache-manifest.ed70b85772d17a98c1cb535fc7cc7f18.js",
+    "service-worker.js": "/www.dennischen123.me/portfolio/service-worker.js",
+    "static/css/main.8aaa9f80.chunk.css.map": "/www.dennischen123.me/portfolio/static/css/main.8aaa9f80.chunk.css.map",
+    "static/js/2.bee22cc7.chunk.js.LICENSE.txt": "/www.dennischen123.me/portfolio/static/js/2.bee22cc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.adbabeda.js",
+    "static/js/runtime-main.2f2262fd.js",
     "static/js/2.bee22cc7.chunk.js",
     "static/css/main.8aaa9f80.chunk.css",
-    "static/js/main.ff1fdd9f.chunk.js"
+    "static/js/main.d48acdbc.chunk.js"
   ]
 }
