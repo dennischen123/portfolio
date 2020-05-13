@@ -32,7 +32,7 @@ function Projects() {
             </div>
           </div>
           <div className="col-sm row">
-            <img className="col-sm image" src={`${process.env.PUBLIC_URL}images/budgetFusion.png`} alt="projectPicture"></img>
+            <img className="col-sm image" src={`${process.env.PUBLIC_URL}/images/budgetFusion.png`} alt="projectPicture"></img>
             <div className="col-sm text-left">
               <div>
                 <a href="https://github.com/dennischen123/budgetFusion"> { githubIcon } </a>
