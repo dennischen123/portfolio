@@ -15,8 +15,7 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/portfolio" component={Home}/>
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/resume" component={Resume}/>
