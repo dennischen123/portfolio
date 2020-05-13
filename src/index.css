@@ -1,5 +1,13 @@
-body {
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+body {
+    /* margin: 0; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -10,13 +18,9 @@ code {
 }
 
 
-/* * {
+/* html {
     width: 100%;
 } */
-
-html {
-    width: 100%;
-}
 
 
 /* NAV BAR STYLING */
@@ -54,13 +58,14 @@ html {
 
 .Home h3 {
     font-size: 50px;
+    /* color: #5a5a6e; */
     color: gray;
 }
 
 
 /* PROJECTS PAGE STYLING */
 
-.Projects img {
+.image {
     width: 500px;
     height: 350px;
 }
@@ -71,4 +76,88 @@ html {
 
 .Projects p {
     font-size: 13px;
+}
+
+.icon-heroku {
+    margin-top: -13px;
+    height: 35px;
+}
+
+.icon-react {
+    height: 60px;
+}
+
+.icon-express {
+    height: 40px;
+}
+
+.icon-chartJS {
+    height: 70px;
+}
+
+.icons {
+    margin-top: -30px;
+}
+
+
+/* CONTACT PAGE STYLING */
+
+.Contact {
+    height: 70vh;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form p,
+input,
+textarea {
+    border: none;
+    outline: none;
+    border-bottom: solid rgb(65, 64, 64) 2px;
+    height: 50px;
+    width: 400px;
+}
+
+form input:focus {
+    border-bottom: 2px solid #78788c;
+}
+
+form textarea:focus {
+    border-bottom: 2px solid #78788c;
+}
+
+form textarea {
+    height: 100px;
+}
+
+button {
+    display: flex;
+    align-self: flex-end;
+    width: 150px;
+    padding: 8px 12px;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #78788c;
+    color: #fff;
+}
+
+embed {
+    width: 100%;
+    height: 100vh;
 }

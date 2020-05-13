@@ -14,39 +14,32 @@ function Nav() {
     icon = { faLinkedin }
     />
 
-    return ( <
-        nav >
-        <
-        div >
-        <
-        h3 className = "pt-3" > Dennis Chen < /h3> <
-        a href = "https://github.com/dennischen123" > { githubIcon } < /a> <
-        a href = "https://www.linkedin.com/in/dennischen123/" > { linkedinIcon } < /a> <
-        /div> <
-        ul className = "nav-links" >
-        <
-        Link style = { navStyle }
-        to = "/" >
-        <
-        li > Home < /li> <
-        /Link> <
-        Link style = { navStyle }
-        to = "/about" >
-        <
-        li > About < /li> <
-        /Link> <
-        Link style = { navStyle }
-        to = "/projects" >
-        <
-        li > Projects < /li> <
-        /Link> <
-        Link style = { navStyle }
-        to = "/contact" >
-        <
-        li > Contact < /li> <
-        /Link> <
-        /ul> <
-        /nav>
+    return (
+        <nav >
+            <div>
+                <h3 className="pt-3" > Dennis Chen </h3>
+                <a href="https://github.com/dennischen123"> { githubIcon } </a>
+                <a href="https://www.linkedin.com/in/dennischen123/" > { linkedinIcon } </a>
+            </div>
+            <ul className="nav-links">
+                <Link style={ navStyle } to="/">
+                    <li> Home </li>
+                </Link>
+                <Link style={ navStyle } to="/about">
+                    <li> About </li>
+                </Link>
+                <Link style={ navStyle } to="/projects">
+                    <li> Projects </li>
+                </Link>
+                <Link style={ navStyle } to="/resume">
+                    <li> Resume </li>
+                {/* <a href="/images/Resume.pdf" className="text-dark"><li> Resume </li></a> */}
+                </Link>
+                <Link style={ navStyle } to="/contact">
+                    <li> Contact </li>
+                </Link>
+            </ul>
+        </nav>
     );
 }
 
