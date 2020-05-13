@@ -11,7 +11,7 @@ function Projects() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm row">
-            <img className="col-sm image" src="/images/trackItPic.png" alt="projectPicture"></img>
+            <img className="col-sm image" src={`${process.env.PUBLIC_URL}/images/trackItPic.png`} alt="projectPicture"></img>
             <div className="col-sm text-left">
               <div>
                 <a href="https://github.com/dennischen123/trackIt"> { githubIcon } </a>
@@ -25,14 +25,14 @@ function Projects() {
               <h6>Technology Stack</h6>
               <div className="icons">
                 <img className="icon" alt="icon" src="https://img.icons8.com/color/48/000000/mongodb.png"></img>
-                <img className="icon-express" alt="icon" src="/images/express-logo.png"></img>
+                <img className="icon-express" alt="icon" src={`${process.env.PUBLIC_URL}/images/express-logo.png`}></img>
                 <img className="icon-react" alt="icon" src="https://img.icons8.com/plasticine/100/000000/react.png"></img>
                 <img className="icon-node" alt="icon" src="https://img.icons8.com/windows/96/000000/nodejs.png"></img>
               </div>
             </div>
           </div>
           <div className="col-sm row">
-            <img className="col-sm image" src="/images/budgetFusion.png" alt="projectPicture"></img>
+            <img className="col-sm image" src={`${process.env.PUBLIC_URL}images/budgetFusion.png`} alt="projectPicture"></img>
             <div className="col-sm text-left">
               <div>
                 <a href="https://github.com/dennischen123/budgetFusion"> { githubIcon } </a>
@@ -55,7 +55,7 @@ function Projects() {
         </div>
         <div className="row">
           <div className="col-sm row">
-            <img className="col-sm image" src="/images/yelpPal.png" alt="projectPicture"></img>
+            <img className="col-sm image" src={`${process.env.PUBLIC_URL}/images/yelpPal.png`} alt="projectPicture"></img>
             <div className="col-sm text-left">
               <div>
                 <a href="https://github.com/dennischen123/YelpPal"> { githubIcon } </a>
@@ -69,13 +69,13 @@ function Projects() {
               <h6>Technology Stack</h6>
               <div className="icons">
                 <img className="icon" alt="icon" src="https://img.icons8.com/color/48/000000/mongodb.png"></img>
-                <img className="icon-express" alt="icon" src="/images/express-logo.png"></img>
+                <img className="icon-express" alt="icon" src={`${process.env.PUBLIC_URL}/images/express-logo.png`}></img>
                 <img className="icon-node ml-3" alt="icon" src="https://img.icons8.com/windows/96/000000/nodejs.png"></img>
               </div>
             </div>
           </div>
           <div className="col-sm row">
-            <img className="col-sm image" src="/images/game.png" alt="projectPicture"></img>
+            <img className="col-sm image" src={`${process.env.PUBLIC_URL}/images/game.png`} alt="projectPicture"></img>
             <div className="col-sm text-left">
               <div>
                 <a href="https://github.com/dennischen123/Pattern-Matching-Game"> { githubIcon } </a>
