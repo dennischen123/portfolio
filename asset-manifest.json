@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dennischen123.me/static/css/main.8aaa9f80.chunk.css",
-    "main.js": "/dennischen123.me/static/js/main.382f09fa.chunk.js",
-    "main.js.map": "/dennischen123.me/static/js/main.382f09fa.chunk.js.map",
-    "runtime-main.js": "/dennischen123.me/static/js/runtime-main.2e31d6dc.js",
-    "runtime-main.js.map": "/dennischen123.me/static/js/runtime-main.2e31d6dc.js.map",
-    "static/js/2.bee22cc7.chunk.js": "/dennischen123.me/static/js/2.bee22cc7.chunk.js",
-    "static/js/2.bee22cc7.chunk.js.map": "/dennischen123.me/static/js/2.bee22cc7.chunk.js.map",
-    "index.html": "/dennischen123.me/index.html",
-    "precache-manifest.2ed7f8414273eeda3d94e34850c1ebcd.js": "/dennischen123.me/precache-manifest.2ed7f8414273eeda3d94e34850c1ebcd.js",
-    "service-worker.js": "/dennischen123.me/service-worker.js",
-    "static/css/main.8aaa9f80.chunk.css.map": "/dennischen123.me/static/css/main.8aaa9f80.chunk.css.map",
-    "static/js/2.bee22cc7.chunk.js.LICENSE.txt": "/dennischen123.me/static/js/2.bee22cc7.chunk.js.LICENSE.txt"
+    "main.css": "/www.dennischen123.me/static/css/main.8aaa9f80.chunk.css",
+    "main.js": "/www.dennischen123.me/static/js/main.ff1fdd9f.chunk.js",
+    "main.js.map": "/www.dennischen123.me/static/js/main.ff1fdd9f.chunk.js.map",
+    "runtime-main.js": "/www.dennischen123.me/static/js/runtime-main.adbabeda.js",
+    "runtime-main.js.map": "/www.dennischen123.me/static/js/runtime-main.adbabeda.js.map",
+    "static/js/2.bee22cc7.chunk.js": "/www.dennischen123.me/static/js/2.bee22cc7.chunk.js",
+    "static/js/2.bee22cc7.chunk.js.map": "/www.dennischen123.me/static/js/2.bee22cc7.chunk.js.map",
+    "index.html": "/www.dennischen123.me/index.html",
+    "precache-manifest.fdfdb639789e2138c7f9b589ec9bb588.js": "/www.dennischen123.me/precache-manifest.fdfdb639789e2138c7f9b589ec9bb588.js",
+    "service-worker.js": "/www.dennischen123.me/service-worker.js",
+    "static/css/main.8aaa9f80.chunk.css.map": "/www.dennischen123.me/static/css/main.8aaa9f80.chunk.css.map",
+    "static/js/2.bee22cc7.chunk.js.LICENSE.txt": "/www.dennischen123.me/static/js/2.bee22cc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e31d6dc.js",
+    "static/js/runtime-main.adbabeda.js",
     "static/js/2.bee22cc7.chunk.js",
     "static/css/main.8aaa9f80.chunk.css",
-    "static/js/main.382f09fa.chunk.js"
+    "static/js/main.ff1fdd9f.chunk.js"
   ]
 }
