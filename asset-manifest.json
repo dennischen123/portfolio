@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/www.dennischen123.me/portfolio/static/css/main.8aaa9f80.chunk.css",
-    "main.js": "/www.dennischen123.me/portfolio/static/js/main.d48acdbc.chunk.js",
-    "main.js.map": "/www.dennischen123.me/portfolio/static/js/main.d48acdbc.chunk.js.map",
-    "runtime-main.js": "/www.dennischen123.me/portfolio/static/js/runtime-main.2f2262fd.js",
-    "runtime-main.js.map": "/www.dennischen123.me/portfolio/static/js/runtime-main.2f2262fd.js.map",
-    "static/js/2.bee22cc7.chunk.js": "/www.dennischen123.me/portfolio/static/js/2.bee22cc7.chunk.js",
-    "static/js/2.bee22cc7.chunk.js.map": "/www.dennischen123.me/portfolio/static/js/2.bee22cc7.chunk.js.map",
-    "index.html": "/www.dennischen123.me/portfolio/index.html",
-    "precache-manifest.ed70b85772d17a98c1cb535fc7cc7f18.js": "/www.dennischen123.me/portfolio/precache-manifest.ed70b85772d17a98c1cb535fc7cc7f18.js",
-    "service-worker.js": "/www.dennischen123.me/portfolio/service-worker.js",
-    "static/css/main.8aaa9f80.chunk.css.map": "/www.dennischen123.me/portfolio/static/css/main.8aaa9f80.chunk.css.map",
-    "static/js/2.bee22cc7.chunk.js.LICENSE.txt": "/www.dennischen123.me/portfolio/static/js/2.bee22cc7.chunk.js.LICENSE.txt"
+    "main.css": "/dennischen123.github.io/portfolio/static/css/main.8aaa9f80.chunk.css",
+    "main.js": "/dennischen123.github.io/portfolio/static/js/main.48fa131f.chunk.js",
+    "main.js.map": "/dennischen123.github.io/portfolio/static/js/main.48fa131f.chunk.js.map",
+    "runtime-main.js": "/dennischen123.github.io/portfolio/static/js/runtime-main.73256023.js",
+    "runtime-main.js.map": "/dennischen123.github.io/portfolio/static/js/runtime-main.73256023.js.map",
+    "static/js/2.bee22cc7.chunk.js": "/dennischen123.github.io/portfolio/static/js/2.bee22cc7.chunk.js",
+    "static/js/2.bee22cc7.chunk.js.map": "/dennischen123.github.io/portfolio/static/js/2.bee22cc7.chunk.js.map",
+    "index.html": "/dennischen123.github.io/portfolio/index.html",
+    "precache-manifest.2d0d2bad60c42f79be2a44a606bccc74.js": "/dennischen123.github.io/portfolio/precache-manifest.2d0d2bad60c42f79be2a44a606bccc74.js",
+    "service-worker.js": "/dennischen123.github.io/portfolio/service-worker.js",
+    "static/css/main.8aaa9f80.chunk.css.map": "/dennischen123.github.io/portfolio/static/css/main.8aaa9f80.chunk.css.map",
+    "static/js/2.bee22cc7.chunk.js.LICENSE.txt": "/dennischen123.github.io/portfolio/static/js/2.bee22cc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f2262fd.js",
+    "static/js/runtime-main.73256023.js",
     "static/js/2.bee22cc7.chunk.js",
     "static/css/main.8aaa9f80.chunk.css",
-    "static/js/main.d48acdbc.chunk.js"
+    "static/js/main.48fa131f.chunk.js"
   ]
 }
