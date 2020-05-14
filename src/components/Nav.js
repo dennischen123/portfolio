@@ -15,13 +15,36 @@ function Nav() {
     />
 
     return (
-        <nav >
-            <div>
-                <h3 className="pt-3" > Dennis Chen </h3>
-                <a href="https://github.com/dennischen123"> { githubIcon } </a>
-                <a href="https://www.linkedin.com/in/dennischen123/" > { linkedinIcon } </a>
-            </div>
-            <ul className="nav-links">
+        <div className="Nav">
+            <nav className="navbar navbar-light">
+                <div>
+                    <h3 className="pt-3" > Dennis Chen </h3>
+                    <a href="https://github.com/dennischen123"> { githubIcon } </a>
+                    <a href="https://www.linkedin.com/in/dennischen123/" > { linkedinIcon } </a>
+                </div>
+                <ul id="nav-links" className="nav-links">
+                    <Link style={ navStyle } to="/">
+                        <li> Home </li>
+                    </Link>
+                    <Link style={ navStyle } to="/about">
+                        <li> About </li>
+                    </Link>
+                    <Link style={ navStyle } to="/projects">
+                        <li> Projects </li>
+                    </Link>
+                    <Link style={ navStyle } to="/resume">
+                        <li> Resume </li>
+                    </Link>
+                    <Link style={ navStyle } to="/contact">
+                        <li> Contact </li>
+                    </Link>
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+          <div class="collapse" id="navContent">
+            <ul className="bg-light">
                 <Link style={ navStyle } to="/">
                     <li> Home </li>
                 </Link>
@@ -33,13 +56,13 @@ function Nav() {
                 </Link>
                 <Link style={ navStyle } to="/resume">
                     <li> Resume </li>
-                {/* <a href="/images/Resume.pdf" className="text-dark"><li> Resume </li></a> */}
                 </Link>
                 <Link style={ navStyle } to="/contact">
                     <li> Contact </li>
                 </Link>
             </ul>
-        </nav>
+          </div>
+        </div>
     );
 }
 

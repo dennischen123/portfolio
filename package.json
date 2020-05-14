@@ -45,6 +45,5 @@
     "devDependencies": {
         "eslint-plugin-react-hooks": "^4.0.0",
         "gh-pages": "^2.2.0"
-    },
-    "homepage": "dennischen123.github.io/portfolio/"
+    }
 }
